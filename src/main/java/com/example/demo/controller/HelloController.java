@@ -11,6 +11,6 @@ public class HelloController {
 
     @GetMapping("/example")
     public String test() throws UnknownHostException {
-        return "Version 1 is hosted by the pod " + InetAddress.getLocalHost() + " !";
+        return "Version 2 is hosted by the pod " + InetAddress.getLocalHost() + " !";
     }
 }
