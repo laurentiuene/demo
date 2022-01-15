@@ -12,7 +12,7 @@ public class HelloController {
 
     @GetMapping
     public String baseUrl() throws UnknownHostException {
-        return "Hello from demp app!";
+        return "Hello from demo app!";
     }
 
     @GetMapping("/example")
