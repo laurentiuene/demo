@@ -12,11 +12,6 @@ public class HelloController {
 
     @GetMapping
     public String baseUrl() throws UnknownHostException {
-        return "Hello from demo app!";
-    }
-
-    @GetMapping("/example")
-    public String test() throws UnknownHostException {
         return "Version 1 is hosted by the pod " + InetAddress.getLocalHost() + " !";
     }
 
