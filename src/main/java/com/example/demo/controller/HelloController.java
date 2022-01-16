@@ -12,7 +12,7 @@ public class HelloController {
 
     @GetMapping
     public String baseUrl() throws UnknownHostException {
-        return "Version 2 is hosted by the pod " + InetAddress.getLocalHost() + " !";
+        return "Version 1 is hosted by the pod " + InetAddress.getLocalHost() + " !";
     }
 
     @GetMapping("/health")
